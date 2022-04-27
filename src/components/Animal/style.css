@@ -1,0 +1,41 @@
+.animal {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.93);
+  cursor: pointer;
+}
+
+.animal:hover {
+  background-color: #f2e7da;
+}
+
+.animal + .animal {
+  border-top: 1px solid #ddd;
+}
+
+.animal__image {
+  flex: 0 0 100px;
+}
+
+.animal__image img {
+  display: block;
+  width: 80px;
+  border-radius: 3px;
+}
+
+.animal__desc{
+  flex: 1;
+}
+
+.animal__name {
+  font-family: 'Merriweather', serif;
+  font-size: 18px;
+}
+
+.animal__latin {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #888;
+}
+
